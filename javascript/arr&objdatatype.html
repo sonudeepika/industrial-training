@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>arrays in js</h1>
+    <hr>
+    <h1>objects in js</h1>
+    <hr>
+    <script>
+        //array
+        let colleges=['aec','aect','acoe']
+        console.log(colleges)
+        console.log(colleges[1])
+        colleges[0]='aditya'
+        console.log(colleges)
+        console.log(colleges[0])
+        
+
+        //object
+        let user={
+            name:'vsd',
+            id:64,
+            college:'aec'
+        }
+        console.log(user)
+        console.log(user.id)//dot notation
+        console.log(user['name'])//array notation
+        user.age=18
+        console.log(user)
+        console.log(user.age)
+        delete user.name;
+    </script>
+</body>
+</html>
